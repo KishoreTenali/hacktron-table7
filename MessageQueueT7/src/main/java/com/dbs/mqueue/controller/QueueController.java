@@ -10,11 +10,11 @@ import org.springframework.web.bind.annotation.PathVariable;
 @Controller
 public class QueueController {
 	
-	public List<MesssageQueue> fetchQueues(@PathVariable int queueId  )
+	public List<Queue> fetchQueues(@PathVariable int queueId  )
 	{
-		List<MessageQueue> list_fetch=new ArrayList<MessageQueue>();
+		List<Queue> list_fetch=new ArrayList<Queue>();
 		
-		
+		//list_fetch=
 		
 		return list_fetch;
 	}
