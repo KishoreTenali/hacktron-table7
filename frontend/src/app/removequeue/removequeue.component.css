@@ -3,12 +3,11 @@
     padding:10% 5% 10% 5%;
     width: 40%;
     height: 12%;
-    background-color: #eee;
-    border: 1px;
-    border-color: #00008b;
+    background-color: #F0F8FF;
+  border: 4px #4D90FE;
     border-radius: 8px;
     color: #00008b;
-    box-shadow: 8px 8px 4px #4D90FE;;
+    box-shadow: 8px 8px 4px #4D90FE;
     padding: 1% 2%;
     text-align: center;
     text-decoration: none;
@@ -22,8 +21,8 @@
   font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
     width: 100px;
     height: 30px;
-    background-color: #4D90FE;;
-    border: 1px;
+    background-color: #4D90FE;
+    border: 4px #4D90FE;
     border-color: #4D90FE;;
     border-radius: 4px;
     color: #fff;
