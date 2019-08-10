@@ -1,7 +1,42 @@
 .removequeue {
+<<<<<<< HEAD
     padding:70px;
 }
 
 .custom-select {
     height: 26px;
+=======
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    padding:10% 5% 10% 5%;
+    width: 40%;
+    height: 12%;
+    background-color: #F0F8FF;
+  border: 4px #4D90FE;
+    border-radius: 8px;
+    color: #00008b;
+    box-shadow: 8px 8px 4px #4D90FE;
+    padding: 1% 2%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.removebuttonsTable {
+  align:center;
+}
+.removebuttons {
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    width: 100px;
+    height: 30px;
+    background-color: #4D90FE;
+    border: 4px #4D90FE;
+    border-color: #4D90FE;;
+    border-radius: 4px;
+    color: #fff;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+>>>>>>> 3501f205e1cfcc2b9e6e6d052e9b0b0d9cae9138
 }
