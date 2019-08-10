@@ -1,8 +1,10 @@
 
 package com.dbs.mqueue.controller;
 
+import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -49,8 +51,22 @@ public class QueueController {
 		
 		return result;
 	}
-	
-	
+
+	@RequestMapping(value="/addQueue",method=RequestMethod.POST, consumes = "application/json")
+	public boolean addQueue(){
+		Random random = new Random();
+
+
+			int id = random.nextInt();
+
+
+			 byte[] array = new byte[7]; // length is bounded by 7
+			    new Random().nextBytes(array);
+			    String  name= new String(array, Charset.forName("UTF-8"));
+			 
+
+	    return queueService.addQueue(id,name);
+	}
 
 
 }

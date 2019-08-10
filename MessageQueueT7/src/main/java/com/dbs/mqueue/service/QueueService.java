@@ -9,4 +9,6 @@ public interface QueueService {
 	public List<Queue> fetchQueue(int queueID);
 	
 	public boolean deleteQueue(int queueID);
+
+	public boolean addQueue(int id,String name);
 }
