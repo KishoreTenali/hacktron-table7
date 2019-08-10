@@ -1,0 +1,42 @@
+<div class="removequeue" align="center">
+<<<<<<< HEAD
+        <h4>Remove Queue</h4>
+    </div>
+    <div align="center" >
+    <form [formGroup]="registrationForm" (ngSubmit)="onSubmit()">
+            <div class="group-gap">
+                <div class="d-block my-3">
+
+      <div class="mb-3">
+        <select class="custom-select" (change)="changeCity($event)" formControlName="cityName">
+          <option value="">Choose Queue</option>
+          <option *ngFor="let queue of queues" [ngValue]="city">{{queue}}</option>
+        </select>
+
+        <div class="invalid-feedback" *ngIf="isSubmitted && cityName.errors?.required">
+          <sup>*</sup>Please Select queue
+        </div>
+      </div>            
+
+      </div>
+      <br>
+    </div>
+      <button type="submit" class="btn btn-danger btn-lg btn-block">Remove</button>
+  </form>
+=======
+    <div id ="removequeuetext" class ="removequeuetext">
+        <p>Are you sure you want to delete the queue?</p>
+    </div>
+    <div id ="removequeuetext" class ="removemessagetext">
+        <p>Are you sure you want to delete the message?</p>
+    </div>
+    <div align="center">
+        <table class ="removebuttonsTable">
+            <tr>
+                <td><input class="removebuttons" type="button" id="deleteYes" value="Yes"></input></td>
+                <td><input class="removebuttons" type="button" id="deleteNo" value="No"></input></td>
+            </tr>
+        </table>
+    </div>
+>>>>>>> 3501f205e1cfcc2b9e6e6d052e9b0b0d9cae9138
+</div>
