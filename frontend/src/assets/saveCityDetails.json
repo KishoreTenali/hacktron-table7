@@ -1,0 +1,12 @@
+[{
+    "queue":"Queue1",
+    "message":"I m in queue 1"
+},
+{
+    "queue":"Queue2",
+    "message":"I m in queue 2"
+},
+{
+    "queue":"Queue3",
+    "message":"I m in queue 3"
+}]
