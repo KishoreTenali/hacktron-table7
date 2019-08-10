@@ -10,5 +10,5 @@ public interface QueueService {
 	
 	public boolean deleteQueue(int queueID);
 
-	public boolean addQueue(int id,String name);
+	public boolean addQueue(String name);
 }

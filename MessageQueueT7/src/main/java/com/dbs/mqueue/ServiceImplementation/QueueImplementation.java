@@ -29,8 +29,8 @@ public class QueueImplementation implements QueueService {
 	}
 
 	@Override
-	public boolean addQueue(int id,String name) {
-		return queueRepository.addQueue(id, name);
+	public boolean addQueue(String name) {
+		return queueRepository.addQueue(name);
 	}
 
 }
