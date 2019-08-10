@@ -27,6 +27,6 @@ public interface QueueRepository extends JpaRepository<Queue,Integer> {
 	@Query(value="DELETE from queue WHERE queueid = ?1",nativeQuery=true)
 	public boolean deleteQueue(int queueId);
 
-	@Query(value ="INSERT into queue (queueid,queuename) values (?1,?2)")
-	public boolean addQueue(int id,String name);
+	@Query(value ="INSERT into queue (queuename) values (?1)")
+	public boolean addQueue(String name);
 }

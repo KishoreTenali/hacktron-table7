@@ -54,10 +54,7 @@ public class QueueController {
 
 	@RequestMapping(value="/addQueue",method=RequestMethod.POST, consumes = "application/json")
 	public boolean addQueue(){
-		Random random = new Random();
 
-
-			int id = random.nextInt();
 
 
 			 byte[] array = new byte[7]; // length is bounded by 7
@@ -65,7 +62,7 @@ public class QueueController {
 			    String  name= new String(array, Charset.forName("UTF-8"));
 			 
 
-	    return queueService.addQueue(id,name);
+	    return queueService.addQueue(name);
 	}
 
 
