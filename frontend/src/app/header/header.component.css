@@ -1,0 +1,96 @@
+ul {
+    list-style-type: none;
+}
+
+.headNav {
+    background-color: #107310 !important;
+    height: 8%;
+    position: fixed;
+    top: -17px!important;
+    right: 0;
+    left: 0;
+}
+
+.sideNav {
+    background-color: #1c173e;
+    position: fixed;
+    left: -17px!important;
+    width: 8%;
+    right: 0;
+    top: 30px;
+    margin: 18px -24px;
+    height: 100%;
+    z-index: 9;
+}
+
+li a {
+    padding: 8px 16px;
+    text-decoration: none;
+    color: bisque!important;
+}
+
+.bodyContent {
+    padding: 45px 0px 14px 6px
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    background-color: #1c173e;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sideFixBar {
+    width: 53px;
+    height: 100%;
+    position: relative;
+    margin: -17px;
+    background-color: #4b6c8b;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #1c173e;
+    color: white;
+    padding: 8px 13px;
+    border: none;
+    margin: 25px -24px;
+}
+
+.openbtn:hover {
+    background-color: rgb(122, 116, 116);
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+    height: 18px;
+}
