@@ -28,4 +28,9 @@ public class QueueImplementation implements QueueService {
 		return queueRepository.deleteQueue(queueID);
 	}
 
+	@Override
+	public boolean addQueue(int id,String name) {
+		return queueRepository.addQueue(id, name);
+	}
+
 }
