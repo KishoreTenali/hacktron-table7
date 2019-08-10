@@ -22,5 +22,10 @@ public class QueueImplementation implements QueueService {
 		
 		
 	}
+	
+	@Override
+	public boolean deleteQueue(int queueID) {
+		return queueRepository.deleteQueue(queueID);
+	}
 
 }
