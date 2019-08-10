@@ -1,0 +1,17 @@
+.footer-center {
+    overflow: hidden;
+    background-color: #563d7c;
+    bottom: 0px;
+    width: 100%;
+    position: fixed;
+    margin-top: 500px;
+    /* space between content and footer */
+    left: 0px;
+    right: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: smaller;
+    color: #cfd9e2;
+    font-size: 12px;
+    line-height: 24px;
+    box-shadow: 0 0 5 rgba(0, 0, 0, 0.9);
+}
