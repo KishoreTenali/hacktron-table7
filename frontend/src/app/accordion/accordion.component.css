@@ -1,0 +1,21 @@
+.accordion {
+    width: 100px;
+  	height: 60px;
+  	background-color: #87cefa;
+  	border: 1px;
+  	border-color: #87cefa;
+  	color: #00008b;
+  	box-shadow: 10px 10px 5px #eee;
+}
+.accordionEntry {
+  	height: 20px;
+  	background-color: #9edbff;
+  	border: 1px;
+  	border-color: #888;
+  	color: #00008b;
+  	padding: 4px 8px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+}
