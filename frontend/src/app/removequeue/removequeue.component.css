@@ -1,0 +1,33 @@
+.removequeue {
+    padding:70px;
+    width: 400px;
+  	height: 80px;
+  	background-color: #87cefa;
+  	border: 1px;
+  	border-color: #87cefa;
+  	border-radius: 8px;
+  	color: #00008b;
+  	box-shadow: 10px 10px 5px #eee;
+  	padding: 4px 8px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+}
+.removebuttonsTable {
+	align:center;
+}
+.removebuttons {
+  	width: 20px;
+  	height: 8px;
+  	background-color: #9edbff;
+  	border: 1px;
+  	border-color: #9edbff;
+  	border-radius: 4px;
+  	color: #00008b;
+  	padding: 4px 8px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+}
