@@ -1,0 +1,16 @@
+.accordion {
+  width: 300px;
+  height: 180px;
+  border: 2px #87cefa;
+  box-shadow: 8px 8px 4px #4D90FE;
+}
+.accordionEntry {
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+  width: 100%;
+  height: 40px;
+  background-color: #F0F8FF;
+  border: 2px #4D90FE;
+  color: #00008b;
+  text-align: center;
+  font-size: 16px;
+}
