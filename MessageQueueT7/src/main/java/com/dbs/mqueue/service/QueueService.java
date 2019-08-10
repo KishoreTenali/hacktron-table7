@@ -7,5 +7,6 @@ import com.dbs.mqueue.bean.Queue;
 public interface QueueService {
 	
 	public List<Queue> fetchQueue(int queueID);
-
+	
+	public boolean deleteQueue(int queueID);
 }
